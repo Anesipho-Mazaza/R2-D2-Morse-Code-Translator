@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>R2-D2 Morse Code Translator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>R2-D2 Morse Code Translator</h1>
+
+    <div class="mode-switch">
+      <button id="encodeBtn" class="active">Encode (Text → Morse)</button>
+      <button id="decodeBtn">Decode (Morse → Text)</button>
+    </div>
+
+    <label for="inputText">Input:</label>
+    <textarea id="inputText" rows="4" placeholder="Enter text or Morse code..."></textarea>
+
+    <div class="actions">
+      <button id="translateBtn">Translate</button>
+      <button id="playBtn">Play Morse Beeps</button>
+      <button id="loadBtn">Load from File</button>
+      <button id="saveBtn">Save Output</button>
+    </div>
+
+    <label for="outputText">Output:</label>
+    <textarea id="outputText" rows="4" readonly placeholder="Translation will appear here..."></textarea>
+
+    <div class="help">
+      <button id="helpBtn">Help</button>
+    </div>
+  </div>
+
+  <script src="morse_web.js"></script>
+</body>
+</html>
