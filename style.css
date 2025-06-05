@@ -1,0 +1,94 @@
+body {
+    background: #23272e;
+    color: #f8f8f2;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #282c34;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    padding: 32px 28px 24px 28px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #00ffea;
+    letter-spacing: 2px;
+}
+label {
+    font-size: 1.1em;
+    margin-top: 18px;
+    display: block;
+    color: #fffa;
+}
+textarea {
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    padding: 12px;
+    font-size: 1.1em;
+    background: #1e1e1e;
+    color: #00ffea;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+.mode-switch {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+.mode-switch button {
+    background: #1e1e1e;
+    color: #00ffea;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.mode-switch button.active {
+    background: #00ffea;
+    color: #23272e;
+    font-weight: bold;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.actions button {
+    background: #00ffea;
+    color: #23272e;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+.actions button:hover {
+    background: #00bfae;
+}
+.help {
+    text-align: right;
+    margin-top: 8px;
+}
+#helpBtn {
+    background: none;
+    color: #00ffea;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+}
+#helpBtn:hover {
+    color: #00bfae;
+}
