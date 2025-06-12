@@ -26,7 +26,7 @@ This tool lets you encode plain text into Morse code, decode Morse back into rea
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/r2d2-morse-translator.git
+   git clone (https://github.com/Anesipho-Mazaza/R2-D2-Morse-Code-Translator.git)
    ```
 
 2. **Navigate to the folder**
